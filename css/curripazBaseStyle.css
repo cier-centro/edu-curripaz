@@ -26,7 +26,11 @@
 .curripaz-panel .main-menu .menu li .active {
     color: #a4579d !important;
     font-weight: 500 !important;
-    background: #f4bd54;    
+    background: #f4bd54 !important;
+}
+
+.curripaz-panel #microsite_panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu {
+    height: auto;
 }
 
 @media (max-width: 767px) {
@@ -48,6 +52,6 @@
     }
 
     .curripaz-panel .main-menu .menu > li a {
-        padding: 0 15px 10px !important;
+        padding: 15px !important;
     }
 }

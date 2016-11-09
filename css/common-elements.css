@@ -124,6 +124,7 @@
 .curripaz-panel #microsite_panel .main-menu, .curripaz-panel #microsite_panel .main-menu > div .menu{
 	background-color: #a4579d !important;
 	border-bottom: none;
+  padding: 0;
 }
 .curripaz-panel .main-menu li a {
 	font-size: 17px !important;
@@ -146,23 +147,24 @@
 .curripaz-panel #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu,
 .curripaz-panel #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover{height:auto;}
 .curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a{
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(164,87,157,0.9);
   line-height: 14px;
   font-size: 14px!important;
 }
 .curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li{
   background-color: rgba(255,255,255,0.5);
 	border-bottom: solid 1px #B7CF80;
+  display: block;
 }
 .curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li:first-child{
-  border-top: solid 4px #8DB530;
+  border-top: solid 4px #a4579d;
 }
 .curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li:last-child{border-bottom:none;}
 .curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a:hover{
-  background: #B7CF80;
-  padding: 18px 20px 18px 20px !important;
+  background: #f4bd54;
+  padding: 20px !important;
   display: block;
-  height: 50px;
+  height: 60px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
