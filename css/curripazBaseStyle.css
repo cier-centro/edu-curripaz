@@ -51,6 +51,11 @@
         display: table-cell;
     }
 
+    .curripaz-panel .main-menu .pane-content > .menu > li:not(:first-child) {
+        border-left: 1px solid #f4bd54;
+        border-radius: 20%;
+    }
+
     .curripaz-panel .main-menu .menu > li a {
         padding: 15px !important;
     }
