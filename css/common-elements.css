@@ -136,7 +136,7 @@
 .curripaz-panel .main-menu .pane-content ul li a{background:#a4579d !important;}
 .curripaz-panel .main-menu .pane-content ul li a:hover{
   color: #a4579d !important;
-  background: #f4bd54;
+  background: #f4bd54 !important;
 }
 .curripaz-panel .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
 .curripaz-panel #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
@@ -148,7 +148,8 @@
 .curripaz-panel #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu,
 .curripaz-panel #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover{height:auto;}
 .curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a{
-  background-color: rgba(164,87,157,0.9);
+  background-color: rgba(164,87,157,0.9) !important;
+  color: #f4bd54 !important;
   line-height: 14px;
   font-size: 14px!important;
   height: auto;
@@ -163,7 +164,8 @@
 }
 .curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li:last-child{border-bottom:none;}
 .curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a:hover{
-  background: #f4bd54;
+  background: #f4bd54 !important;
+  color: #a4579d !important;
   padding: 18px 15px!important;
   display: block;
   height: 60px;
