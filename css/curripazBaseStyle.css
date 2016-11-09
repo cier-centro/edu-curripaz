@@ -18,20 +18,16 @@
     margin: 0 0 30px !important;
 }
 
-.curripaz-panel .main-menu .pane-content {
-    background-color: white;
-}
-
 .curripaz-panel .main-menu .menu,
 .curripaz-panel .main-menu .menu li {
     border-bottom-color: #ffe900 !important;
 }
 
 .curripaz-panel .main-menu .menu li .active {
-    color: #ffe900 !important;
-    font-weight: 600 !important;
+    color: #a4579d !important;
+    font-weight: 500 !important;
+    background: #f4bd54;    
 }
-
 
 @media (max-width: 767px) {
     .curripaz-panel .section_container.no_left_sidebar .section_content {
@@ -40,16 +36,13 @@
 }
 
 @media (min-width: 851px) {
-    .curripaz-panel .main-menu .menu {
+    .curripaz-panel .main-menu .pane-content > .menu {
         display: table;
-        width: 60%;
-        margin-left: 20%;
+        width: 100%;
         border: none !important;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
     }
 
-    .curripaz-panel .main-menu .menu > li {
+    .curripaz-panel .main-menu .pane-content > .menu > li {
         float: none !important;
         display: table-cell;
     }

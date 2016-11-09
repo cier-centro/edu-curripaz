@@ -122,22 +122,19 @@
 }
 */
 .curripaz-panel #microsite_panel .main-menu, .curripaz-panel #microsite_panel .main-menu > div .menu{
-	background-color: #5e3380 !important;
+	background-color: #a4579d !important;
 	border-bottom: none;
 }
 .curripaz-panel .main-menu li a {
 	font-size: 17px !important;
-  font-weight: 400 !important;
-	color: white !important;
+  font-weight: 500 !important;
+	color: #f4bd54 !important;
 	border: none !important;
-	text-transform: inherit;
 	padding: 10px 15px !important;
-  text-decoration: underline;
 }
 .curripaz-panel .main-menu .pane-content ul li a{background:none;}
 .curripaz-panel .main-menu .pane-content ul li a:hover{
-	text-decoration:none;
-  color:#ffe900 !important;
+  color:#a4579d !important;
 }
 .curripaz-panel .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
 .curripaz-panel #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
