@@ -1,0 +1,503 @@
+.content h1, .content h2, .content h3, .content h4{
+    margin-bottom:30px;
+    font-weight:normal;
+    color:#1F2B49;
+}
+.curripaz-panel .content h1{
+    font-size:30px;
+    padding-left:10px;
+}
+.curripaz-panel .content h2{
+    font-size: 20px;
+    color: #502280;
+    margin: 0 15px 10px;
+    font-weight: 600;
+}
+.curripaz-panel .content h3{
+    font-size: 16px;
+    color: #502280;
+    font-weight: 600;
+    margin: 0;
+    display: inline-block;
+    padding-right: 10px;
+}
+.curripaz-panel .content h4{
+    color: #007C9F;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.curripaz-panel .pad-container p{
+    margin:5px 15px 20px !important;
+    text-align: justify;
+}
+.curripaz-panel .pad-container i{
+    color: #502280;
+    font-weight: 600;
+}
+.curripaz-panel .pad-container ol{
+    counter-reset: li;
+    padding: 0 0 20px 40px;
+}
+.curripaz-panel .pad-container ol li::before{
+    content: counter(li)".";
+    color: #502280;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+    text-align: center;
+    font-weight: 500;
+}
+.curripaz-panel .pad-container ol li {
+		counter-increment: li;
+    margin: 0 15px 15px 0;
+    text-align: justify;
+}
+.curripaz-panel .content p a{text-decoration: underline;}
+.curripaz-panel .content .callout{
+    margin:30px 10px 10px 10px;
+    display:inline-block;
+}
+.curripaz-panel .content .callout p{
+    color: #767679;
+    padding: 5px 5px 15px 5px;
+    font-size: 23px;
+    border-top: 1px solid #B8B9BD;
+    border-bottom: 1px solid #B8B9BD;
+    text-align: center;
+    line-height: 29px;
+}
+.curripaz-panel .content .callout p span{
+    font-size:36px;
+    line-height: 29px;
+    color: #767679;
+}
+/*verificar que estos estilos siempre apunten al contenido para no modificar estilos del menú*/
+.curripaz-panel .content .aliados10-section-content ul{
+    margin:0 60px 20px 60px!important;
+}
+.curripaz-panel .content .aliados10-section-content ul li{
+    text-indent: -10px;
+    /*cambiar el valor a positivo según la necesidad*/
+}
+.curripaz-panel .content .aliados10-section-content ul li:before {
+    content: "• ";
+    color: #8DB530;
+    font-weight: bold;
+}
+.curripaz-panel .content .table-responsive{
+    width:90%;
+    margin:auto;
+}
+.curripaz-panel .content p .amplification{
+
+}
+/***MENÚ***/
+/*cuando todos los hijos del menú son iguales*/
+/*.curripaz-panel .main-menu > .pane-content > ul > li{
+	width:25%;
+  border-right: 2px solid rgba(255, 255, 255, 0.7);
+  margin: 5px 0;
+}
+.curripaz-panel .main-menu > .pane-content > ul > li:last-child{
+	border-right: none;
+}*/
+/*cuando el menú tiene difirentes tamaños para cada hijo*/
+/*
+.curripaz-panel .main-menu > .pane-content > ul > li:first-child{
+	width:20%;
+}
+.curripaz-panel .main-menu > .pane-content > ul > li:nth-child(2){
+	width:24%;
+}
+.curripaz-panel .main-menu > .pane-content > ul > li:nth-child(3){
+	width:22%;
+}
+.curripaz-panel .main-menu > .pane-content > ul > li:nth-child(4){
+	width:18%;
+}
+.curripaz-panel .main-menu > .pane-content > ul > li:last-child{
+	padding-top: 9px;
+	width:16%;
+}
+*/
+.curripaz-panel #microsite_panel .main-menu, .curripaz-panel #microsite_panel .main-menu > div .menu{
+	background-color: #5e3380 !important;
+	border-bottom: none;
+}
+.curripaz-panel .main-menu li a {
+	font-size: 17px !important;
+  font-weight: 400 !important;
+	color: white !important;
+	border: none !important;
+	text-transform: inherit;
+	padding: 10px 15px !important;
+  text-decoration: underline;
+}
+.curripaz-panel .main-menu .pane-content ul li a{background:none;}
+.curripaz-panel .main-menu .pane-content ul li a:hover{
+	text-decoration:none;
+  color:#ffe900 !important;
+}
+.curripaz-panel .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
+.curripaz-panel #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu{
+  top: 93%;
+	height:0px;
+  background: transparent;
+}
+.curripaz-panel .inclusive-contents-panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu:hover,
+.curripaz-panel #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu,
+.curripaz-panel #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover{height:auto;}
+.curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a{
+  background-color: rgba(255,255,255,0.5);
+  line-height: 14px;
+  font-size: 14px!important;
+}
+.curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li{
+  background-color: rgba(255,255,255,0.5);
+	border-bottom: solid 1px #B7CF80;
+}
+.curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li:first-child{
+  border-top: solid 4px #8DB530;
+}
+.curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li:last-child{border-bottom:none;}
+.curripaz-panel #microsite_panel .pane-content > .menu li.parent_menu > .children_menu li a:hover{
+  background: #B7CF80;
+  padding: 18px 20px 18px 20px !important;
+  display: block;
+  height: 50px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+/*******SLIDER******/
+#aliados-10-home-slider {
+		/*height: 320px;*/
+		overflow: hidden;
+		padding: 15px 15px;
+		margin-bottom: 15px;
+}
+
+ #aliados-10-home-slider .views-slideshow-controls-top {
+		position: absolute;
+	  top: 33%;
+		width: 97%;
+		z-index: 4;
+		padding: 0 3%;
+}
+
+.curripaz-panel #aliados-10-home-slider  #views_slideshow_cycle_main_edth_vista-panel_pane_4 {
+		position: relative;
+    top: -6vw;
+}
+
+.curripaz-panel #aliados-10-home-slider .views-slideshow-controls-text-pause {
+		display: none;
+}
+
+.curripaz-panel #aliados-10-home-slider .views_slideshow_controls_text_next {
+		float: right;
+}
+
+.curripaz-panel #aliados-10-home-slider .views-slideshow-controls-text-previous a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("../img/previous_slide_icon.png") no-repeat center center / contain;
+}
+
+.curripaz-panel #aliados-10-home-slider .views-slideshow-controls-text-next a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("../img/next_slide_icon.png") no-repeat center center / contain;
+}
+
+.curripaz-panel #aliados-10-home-slider #views_slideshow_cycle_teaser_section_edth_vista-panel_pane_4,
+.curripaz-panel #aliados-10-home-slider .views_slideshow_slide,
+.curripaz-panel #aliados-10-home-slider .views_slideshow_slide img {
+		width: 100% !important;
+}
+
+.curripaz-panel #aliados-10-home-slider .views_slideshow_slide > div {
+		position: relative;
+}
+
+.curripaz-panel #aliados-10-home-slider .views_slideshow_slide > div .views-field-body {
+  position: absolute;
+  top: 10%;
+  width: 76%;
+  right: 12%;
+  background: transparent;
+  padding: 15px;
+  color: white;
+}
+.curripaz-panel #aliados-10-home-slider .views_slideshow_slide .views-field-body .field-content p{
+  color:#ffffff!important;
+  background-color:rgba(255,255,255,0)!important;
+}
+.curripaz-panel #aliados-10-home-slider .views_slideshow_slide label {
+		color: #ffffff;
+		font-size: 36px;
+}
+
+.curripaz-panel #aliados-10-home-slider .views_slideshow_slide .field-content p {
+	  font-size: 13px;
+    margin:0 25% 20px 0!important;
+}
+
+.curripaz-panel #aliados-10-home-slider .views-more-link {
+  display: block;
+  background: transparent;
+  color: white;
+  margin: 15px 0px 0px;
+  padding: 4px 20px;
+  position: absolute;
+  border: 1px solid #ffffff;
+}
+/****TABLAS****/
+.curripaz-panel .content .table-responsive{
+  margin-bottom: 15px;
+}
+.curripaz-panel .content .table-responsive > thead > tr > th, .curripaz-panel .content .table-responsive > tbody > tr > th,.curripaz-panel .content .table-responsive > tfoot > tr > th,.curripaz-panel .content .table-responsive > thead > tr > td,.curripaz-panel .content .table-responsive > tbody > tr > td,.curripaz-panel .content .table-responsive > tfoot > tr > td {
+    border:none;
+}
+.curripaz-panel .content table>thead{
+    background: rgb(141, 181, 48);
+    border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+}
+.curripaz-panel .content table>thead>tr>th{
+  background: rgba(163,194,89,1);
+  background: -moz-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,194,89,1)), color-stop(100%, rgba(141,181,48,1)));
+  background: -webkit-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  background: -o-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  background: -ms-linear-gradient(top, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  background: linear-gradient(to bottom, rgba(163,194,89,1) 0%, rgba(141,181,48,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3c259', endColorstr='#8db530', GradientType=0 );
+}
+.curripaz-panel .content table>thead>tr>th:first-child{color:rgba(255,255,255,0);}
+.curripaz-panel .content table thead th a, table thead th a:hover,
+.curripaz-panel .content table thead th, .curripaz-panel .content table thead th:hover {
+    text-decoration: none;
+    color:white;
+    text-shadow: none;
+}
+/*para agregar bordes redondeados*/
+/*.curripaz-panel .content table>thead>tr>th:first-child{border-radius: 10px 0px 0px 0px;-moz-border-radius: 10px 0px 0px 0px;-webkit-border-radius: 10px 0px 0px 0px;}*/
+/*.curripaz-panel .content table>thead>tr>th:last-child{border-radius: 0px 10px 0px 0px;-moz-border-radius:  0px 10px 0px 0px;-webkit-border-radius:  0px 10px 0px 0px;}*/
+.curripaz-panel .content .table-responsive{border: 0px solid rgba(110,114,118,1);}
+.curripaz-panel .content .table-responsive > thead > tr > th{text-align: center;}
+.curripaz-panel .content .table-responsive > thead > tr > th,.curripaz-panel .content .table-responsive > thead > tr > td{border-right: 1px solid rgba(110,114,118,0.2);color: #ffffff;}
+.curripaz-panel .content .table-responsive > tbody > tr > th,.curripaz-panel .content .table-responsive > tfoot > tr > th,.curripaz-panel .content .table-responsive > tbody > tr > td,.curripaz-panel .content .table-responsive > tfoot > tr > td {
+    border-right: 1px solid rgba(110,114,118,0.2);
+}
+.curripaz-panel .content .table-responsive > thead > tr > th:first-child,.curripaz-panel .content .table-responsive > thead > tr > td:first-child{color:#ffffff;}
+.curripaz-panel .content .table-responsive > tbody > tr > th:first-child,.curripaz-panel .content .table-responsive > tfoot > tr > th:first-child, .content .table-responsive > tbody > tr > td:first-child, .content .table-responsive > tfoot > tr > td:first-child {
+    border-left: none;
+    text-align: left;
+}
+.curripaz-panel .content .table-responsive > tbody > tr > th:last-child,.curripaz-panel .content .table-responsive > tfoot > tr > th:last-child, .curripaz-panel .content .table-responsive > tbody > tr > td:last-child, .curripaz-panel .content .table-responsive > tfoot > tr > td:last-child,.curripaz-panel .content .table-responsive > thead > tr > th:last-child, .table-responsive > thead > tr > td:last-child {
+    border-right: none;
+}
+.curripaz-panel .content .table-responsive tbody tr:nth-child(odd){
+    background: #f0f2f6;
+}
+.curripaz-panel .content .table-responsive tbody tr:nth-child(even){
+    background: #f8f9fb;
+}
+.curripaz-panel .content .table-responsive tbody tr:hover{
+    background: #8FC1D3;
+    -webkit-transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -ms-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
+.curripaz-panel .content .table-responsive tbody tr:hover th, .table-responsive tbody tr:hover td{
+    color:#ffffff;
+    -webkit-transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -ms-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
+.curripaz-panel .content .table-responsive tbody tr{
+    border-bottom: none;
+}
+.curripaz-panel .content .table-responsive thead tr:last-child{
+    background: #A2C259;
+    border-bottom: solid 1px rgba(110,114,118,0.5);
+}
+.curripaz-panel .content .table-responsive tbody tr td:last-child{
+    min-width:100px;
+}
+.curripaz-panel .content .table-responsive td > input {
+    background: #535d87;
+    border: 1px solid #04143b;
+}
+.curripaz-panel .content .table-responsive td > a {
+    color: #243268;
+    display: inline-block;
+}
+.curripaz-panel .content .table-responsive table tr th{
+    text-shadow:none;
+}
+.curripaz-panel .content .table-responsive tr,.curripaz-panel .content .table-responsive tr.even {
+  background-color: #F9F9F9;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+.curripaz-panel .content tfoot tr td:last-child {border-right: none;}
+.curripaz-panel .content thead th, .curripaz-panel .content thead td{padding:4px 3px 4px 3px;}
+.curripaz-panel .content tbody td{padding:2px 3px 2px 3px;}
+.curripaz-panel .content tfoot td{padding:3px 3px 3px 3px;}
+
+.curripaz-panel .content .faq-accordion .views-row > div {
+    border: 1px solid #909090;
+    border-radius: 0;
+}
+
+.curripaz-panel .content .faq-accordion .views-row > div:first-child {
+    background: #eff1f5;
+}
+
+.curripaz-panel .content .faq-accordion .views-row .ui-accordion-header {
+    margin-top: 0;
+}
+
+.curripaz-panel .content .faq-accordion .views-row > div:first-child a {
+    text-align: left;
+}
+
+.curripaz-panel .content .faq-accordion .views-row .ui-state-active {
+    font-weight: 700;
+}
+
+.curripaz-panel .content .faq-accordion .views-row .ui-state-default {
+    font-weight: 500;
+}
+
+.curripaz-panel .content .faq-accordion .views-row > div:first-child span {
+    color: #122747;
+}
+
+.curripaz-panel .content .faq-accordion .views-row .ui-accordion-content-active {
+    padding: 20px 20px 0 !important;
+}
+
+.curripaz-panel .content .faq-accordion .views-row {
+    margin-bottom: -2px;
+}
+
+.curripaz-panel .content .faq-accordion .views-row-last {
+    margin-bottom: 0;
+}
+
+.curripaz-panel .content .pager li > a {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.curripaz-panel .content .pager .pager-current {
+    background-color: white;
+    color: #ff617a;
+    width: 40px;
+}
+
+.curripaz-panel .content .pager .pager-first a,
+.curripaz-panel .content .pager .pager-previous a,
+.curripaz-panel .content .pager .pager-next a,
+.curripaz-panel .content .pager .pager-last a {
+    background: url(../img/pager-spritesheet.png);
+}
+
+.curripaz-panel .content .pager .pager-first a {
+    background-position: 3px -20px;
+}
+
+.curripaz-panel .content .pager .pager-previous a {
+    background-position: 3px 3px;
+}
+
+.curripaz-panel .content .pager .pager-next a {
+    background-position: -20px 3px;
+}
+
+.curripaz-panel .content .pager .pager-last a {
+    background-position: -21px -20px;
+}
+
+.pager-previous + .pager-item:before, .pager-item + .pager-current:before,
+.pager-current + .pager-item:before, .pager-item + .pager-item:before,
+.pager-item + .pager-next:before {
+    content: " | ";
+    color: black;
+    font-weight: bold;
+}
+
+.pager-item + .pager-current:before {
+    padding-right: 7px;
+}
+
+.curripaz-panel .content .btn-pdf-file {
+    background: #ededed;
+    border: 1px solid #818181;
+}
+
+.curripaz-panel .content .btn-pdf-file:hover {
+    background: #cdced0;
+}
+
+.curripaz-panel .content .btn-page-link label,
+.curripaz-panel .content .btn-pdf-file label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.curripaz-panel .content .btn-pdf-file label {
+    color: #818181;
+    padding-top: 3px;
+}
+
+.curripaz-panel .content .pdf-file-icon {
+    background: url(../images/pdf-icons.png);
+    height: 36px;
+    width: 28px;
+    display: block;
+    float: right;
+}
+
+.curripaz-panel .content .btn-page-link {
+    background: #ee0029;
+    border: 1px solid #c00025;
+    white-space: pre-line;
+}
+
+.curripaz-panel .content .btn-page-link:hover {
+    background: #122747;
+}
+
+.curripaz-panel .content .btn-page-link label {
+    white-space: pre-line;
+    color: white;
+}
+
+@media (min-width: 768px){
+    .curripaz-panel .content .modal-dialog {
+        width: 600px;
+        margin: 15% auto;
+    }
+}
+@media (min-width: 1100px){
+  /*Es importante definir el content inicialmente*/
+  .curripaz-panel .main_container .section_content {
+    width: 1024px!important;
+  }
+}

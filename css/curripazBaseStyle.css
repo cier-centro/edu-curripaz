@@ -1,0 +1,60 @@
+.curripaz-panel .main_container {
+    background: url(../img/img_background.gif) white center center / cover;
+}
+
+.curripaz-panel .panels-flexible-region {
+    background: white;
+}
+
+.curripaz-panel .section_container .section_content {
+    min-height: 100%;
+}
+
+.curripaz-panel .main-banner .view-content {
+    margin: 0 !important;
+}
+
+.curripaz-panel .main-menu {
+    margin: 0 0 30px !important;
+}
+
+.curripaz-panel .main-menu .pane-content {
+    background-color: white;
+}
+
+.curripaz-panel .main-menu .menu,
+.curripaz-panel .main-menu .menu li {
+    border-bottom-color: #ffe900 !important;
+}
+
+.curripaz-panel .main-menu .menu li .active {
+    color: #ffe900 !important;
+    font-weight: 600 !important;
+}
+
+
+@media (max-width: 767px) {
+    .curripaz-panel .section_container.no_left_sidebar .section_content {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 851px) {
+    .curripaz-panel .main-menu .menu {
+        display: table;
+        width: 60%;
+        margin-left: 20%;
+        border: none !important;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .curripaz-panel .main-menu .menu > li {
+        float: none !important;
+        display: table-cell;
+    }
+
+    .curripaz-panel .main-menu .menu > li a {
+        padding: 0 15px 10px !important;
+    }
+}
