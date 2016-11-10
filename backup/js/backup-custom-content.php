@@ -15,6 +15,7 @@
 	</div>
 	<div class="send-proposal-link">
 			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la">
+					Enviar propuesta
 			</a>
 	</div>
 </div>

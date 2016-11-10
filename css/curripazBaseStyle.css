@@ -43,12 +43,22 @@
     margin: 15px;
 }
 
+.curripaz-panel .quick-access-links  a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
 .curripaz-panel .activa-link {
-    background: #a4579d;
+    background: url(../img/lg_activa_link_hands.gif) white no-repeat 30% center / 75%;
+}
+
+.curripaz-panel .activa-link a {
+    background: url(../img/lg_activa_link.gif) transparent no-repeat 50% center / 75%;
 }
 
 .curripaz-panel .send-proposal-link {
-    background: #a4579d;
+    background: url(../img/lg_send_proposal.png) #a4579d no-repeat 30% center / 75%;
 }
 
 @media (max-width: 767px) {
