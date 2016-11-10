@@ -50,17 +50,28 @@
 }
 
 .curripaz-panel .activa-link {
-    background: url(../img/lg_activa_link_hands.gif) white no-repeat 30% center / 75%;
+    background: url(../img/lg_activa_link_hands.gif) white no-repeat 0 100% / 35% auto;
 }
 
 .curripaz-panel .activa-link a {
-    background: url(../img/lg_activa_link.gif) transparent no-repeat 50% center / 75%;
+    background: url(../img/lg_activa_link.gif) transparent no-repeat 90% center / 60% auto;
 }
 
 .curripaz-panel .send-proposal-link {
-    background: url(../img/lg_send_proposal.png) #a4579d no-repeat 30% center / 75%;
+    background: url(../img/lg_send_proposal.png) #a4579d no-repeat 0 100% / 40% auto;
 }
 
+.curripaz-panel .send-proposal-link a {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: right;
+    padding: 15px 15px 23px 36%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    line-height: 1.2;
+}
 @media (max-width: 767px) {
     .curripaz-panel .section_container.no_left_sidebar .section_content {
         width: 100% !important;
