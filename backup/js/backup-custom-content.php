@@ -7,6 +7,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+<!--Botones panel izquiero de inicio-->
+<div class="quick-access-links">
+	<div class="activa-link">
+			<a href="http://aprende.colombiaaprende.edu.co/es/activatuciudadania">
+			</a>
+	</div>
+	<div class="send-proposal-link">
+			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la">
+			</a>
+	</div>
+</div>
+
 <!--Scripts de todas las páginas-->
 <script>
 	var url = window.location.href;

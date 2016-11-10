@@ -33,6 +33,24 @@
     height: auto;
 }
 
+.curripaz-panel .quick-access-links {
+    background: #7ac7be;
+    padding: 1px 0;
+}
+
+.curripaz-panel .quick-access-links > div {
+    height: 90px;
+    margin: 15px;
+}
+
+.curripaz-panel .activa-link {
+    background: #a4579d;
+}
+
+.curripaz-panel .send-proposal-link {
+    background: #a4579d;
+}
+
 @media (max-width: 767px) {
     .curripaz-panel .section_container.no_left_sidebar .section_content {
         width: 100% !important;
