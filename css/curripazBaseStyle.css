@@ -76,6 +76,18 @@
     .curripaz-panel .section_container.no_left_sidebar .section_content {
         width: 100% !important;
     }
+
+    .curripaz-panel .activa-link {
+        background: url(../img/lg_activa_link_hands.gif) white no-repeat 0 100% / auto 90%;
+    }
+
+    .curripaz-panel .activa-link a {
+        background: url(../img/lg_activa_link.gif) transparent no-repeat 95% center / auto 75%;
+    }
+
+    .curripaz-panel .send-proposal-link {
+        background: url(../img/lg_send_proposal.png) #a4579d no-repeat 0 100% / auto 100%;
+    }
 }
 
 @media (min-width: 851px) {
@@ -98,4 +110,9 @@
     .curripaz-panel .main-menu .menu > li a {
         padding: 15px !important;
     }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .curripaz-panel .quick-access-links > div {
+      height: 9vw;
 }
