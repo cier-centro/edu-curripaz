@@ -11,7 +11,7 @@
 }
 
 
-.curripaz-panel .listaCurri ol<li
+.curripaz-panel .listaCurri ol>li
 {
     list-style-type: lower-alpha;
     margin-left: 40px;
