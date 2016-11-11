@@ -14,19 +14,17 @@
 ol.listaCurri li
 {
     list-style-type: lower-alpha;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 ul.listaCurri li
 {
     list-style-type: disc;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .listaCurri li
 {
     font-size: 1.1em;
     color: white;
-    list-style-type: disc;
-    margin-left: 40px;
 }
