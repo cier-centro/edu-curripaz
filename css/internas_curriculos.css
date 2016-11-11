@@ -14,13 +14,13 @@
 .curripaz-panel .listaCurri ol li
 {
     list-style-type: lower-alpha;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .curripaz-panel .listaCurri ul li
 {
     list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .curripaz-panel .listaCurri li
