@@ -11,7 +11,7 @@
 }
 
 
-.listaCurri ol li
+ol .listaCurri li
 {
     list-style-type: lower-alpha;
     margin-left: 40px;
