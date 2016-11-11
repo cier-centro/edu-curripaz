@@ -86,15 +86,38 @@
 }
 
 .curripaz-panel .download-button {
-    background: url(../img/ico_download_file.png) #A4579D no-repeat 95% center / auto 90%;
+    background: url(../img/ico_download_file.png) #A4579D no-repeat 95% center / 28px;
     margin: 5px 0;
-    height: 50px;
 }
 
 .curripaz-panel .download-button a {
     color: white !important;
-    padding: 15px 0 15px 15px;
+    padding: 15px 40px 15px 15px;
     text-align: left;
+}
+
+.curripaz-panel .ranking-view .view .view-content > div {
+    width: 100%;
+    border: solid thin #A4579D;
+    min-height: 230px;
+    height: auto;
+    margin: 20px 0;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.curripaz-panel .ranking-view .views-field.views-field-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.curripaz-panel .ranking-view .views-field-field-imagen-de-la-propuesta {
+    margin: 0 0 20px;
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0 0 20%;
+    overflow: hidden;
 }
 
 @media (max-width: 767px) {
@@ -138,7 +161,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .curripaz-panel .quick-access-links > div {
+    .curripaz-panel .quick-access-links > div:not(:last-child) {
       height: 9vw;
     }
 
