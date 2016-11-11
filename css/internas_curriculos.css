@@ -1,0 +1,29 @@
+.curripaz-panel ol, .curripaz-panel ul
+{
+    background-color: #7AC7BE;
+    padding: 10px;
+    color: white;
+    width: 60%;
+    margin: 10px auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+.curripaz-panel ol li
+{
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+
+.curripaz-panel ul li
+{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.curripaz-panel li
+{
+    font-size: 1.1em;
+}
