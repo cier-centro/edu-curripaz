@@ -1,4 +1,4 @@
-.curripaz-panel ol, .curripaz-panel ul
+.curripaz-panel .listaCurri, .curripaz-panel .listaCurri
 {
     background-color: #7AC7BE;
     padding: 10px;
@@ -11,19 +11,19 @@
 }
 
 
-.curripaz-panel ol li
+ol .listaCurri li
 {
     list-style-type: lower-alpha;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
-.curripaz-panel ul li
+.listaCurri ul li
 {
     list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
-.curripaz-panel li
+.listaCurri li
 {
     font-size: 1.1em;
     color: white;
