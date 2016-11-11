@@ -38,12 +38,12 @@
     padding: 1px 0;
 }
 
-.curripaz-panel .quick-access-links > div {
+.curripaz-panel .quick-access-links > div:not(:last-child) {
     height: 90px;
     margin: 15px;
 }
 
-.curripaz-panel .quick-access-links  a {
+.curripaz-panel .quick-access-links a {
     display: block;
     height: 100%;
     width: 100%;
@@ -63,15 +63,40 @@
 
 .curripaz-panel .send-proposal-link a {
     color: white;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
     text-align: right;
-    padding: 15px 15px 23px 36%;
+    padding: 15px 15px 15px 36%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     line-height: 1.2;
 }
+
+.curripaz-panel .download-files {
+    margin: 15px;
+}
+
+.curripaz-panel .download-files h1 {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 0;
+    margin: 25px 0px 10px;
+}
+
+.curripaz-panel .download-button {
+    background: url(../img/ico_download_file.png) #A4579D no-repeat 95% center / auto 90%;
+    margin: 5px 0;
+    height: 50px;
+}
+
+.curripaz-panel .download-button a {
+    color: white !important;
+    padding: 15px 0 15px 15px;
+    text-align: left;
+}
+
 @media (max-width: 767px) {
     .curripaz-panel .section_container.no_left_sidebar .section_content {
         width: 100% !important;
@@ -115,4 +140,11 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .curripaz-panel .quick-access-links > div {
       height: 9vw;
+    }
+
+    .curripaz-panel .send-proposal-link a {
+      padding: 0 4% 0 35%;
+      align-items: center;
+      font-size: 14px;
+    }
 }

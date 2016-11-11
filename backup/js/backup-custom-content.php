@@ -10,15 +10,37 @@
 <!--Botones panel izquiero de inicio-->
 <div class="quick-access-links">
 	<div class="activa-link">
-			<a href="http://aprende.colombiaaprende.edu.co/es/activatuciudadania">
+			<a href="http://aprende.colombiaaprende.edu.co/es/activatuciudadania" target="_blank">
 			</a>
 	</div>
 	<div class="send-proposal-link">
-			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la">
-					Enviar propuesta
+			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la" target="_blank">
+					Enviar propuesta de secuencia didáctica
 			</a>
 	</div>
+	<div class="download-files">
+	    <h1>Información por temas</h1>
+	    <div class="download-button">
+	        <a href="#">Convivencia pacifica</a>
+	    </div>
+	    <div class="download-button">
+					<a href="#">Diversidad e identidad</a>
+	    </div>
+	    <div class="download-button">
+					<a href="#">Memoria historica y reconciliación</a>
+	    </div>
+	    <div class="download-button">
+					<a href="#">Participación ciudadana</a>
+	    </div>
+	    <div class="download-button">
+	        <a href="#">Desarrollo sostenible</a>
+	    </div>
+	    <div class="download-button">
+	        <a href="#">Ética cuidado y decisiones</a>
+	    </div>
+	</div>
 </div>
+
 
 <!--Scripts de todas las páginas-->
 <script>
