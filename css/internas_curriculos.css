@@ -11,7 +11,7 @@
 }
 
 
-ol .listaCurri li
+.listaCurri ol li
 {
     list-style-type: lower-alpha;
     margin-left: 40px;
@@ -27,4 +27,10 @@ ol .listaCurri li
 {
     font-size: 1.1em;
     color: white;
+}
+
+.curripaz-panel ol li
+{
+    list-style-type: lower-alpha;
+    margin-left: 40px;
 }
