@@ -96,6 +96,13 @@
     text-align: left;
 }
 
+.curripaz-panel .pane-title {   
+    margin: 0;
+    color: #a4579d;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .curripaz-panel .ranking-view .view .view-content > div {
     width: 100%;
     border: solid thin #A4579D;
@@ -109,6 +116,7 @@
 .curripaz-panel .ranking-view .views-field.views-field-title {
     font-size: 18px;
     font-weight: 600;
+    margin: 0 0 5px;
 }
 
 .curripaz-panel .ranking-view .views-field-field-imagen-de-la-propuesta {
@@ -118,6 +126,36 @@
     height: 0;
     padding: 0 0 20%;
     overflow: hidden;
+}
+
+.curripaz-panel .ranking-view .views-field-field-imagen-de-la-propuesta img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.curripaz-panel .ranking-view .views-field-field-tema-de-la-propuesta {
+    margin: 0 0 20px;
+}
+
+.curripaz-panel .ranking-view .views-field-field-calificacion-cpaz,
+.curripaz-panel .ranking-view .views-field-php {
+    width: 50%;
+    float: left;
+}
+
+.curripaz-panel .ranking-view .views-field-php a {
+    color: #A4579D;
+    text-decoration: underline;
+    font-weight: 600;
+    display: block;
+    text-align: right;
+}
+
+.curripaz-panel .ranking-view .views-field-php a:hover {
+    color: #50B0AF;
 }
 
 @media (max-width: 767px) {
