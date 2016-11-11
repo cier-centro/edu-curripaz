@@ -11,13 +11,13 @@
 }
 
 
-.listaCurri ol li
+ol.listaCurri li
 {
     list-style-type: lower-alpha;
     margin-left: 40px;
 }
 
-.listaCurri ul li
+ul.listaCurri li
 {
     list-style-type: disc;
     margin-left: 40px;
