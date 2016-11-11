@@ -18,6 +18,16 @@
 					Enviar propuesta de secuencia didáctica
 			</a>
 	</div>
+	<div class="proposal-link">
+			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la" target="_blank">
+					Ver propuestas
+			</a>
+	</div>
+	<div class="unapproved-proposal-link">
+			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la" target="_blank">
+					Ver propuestas no aprobadas
+			</a>
+	</div>
 	<div class="download-files">
 	    <h1>Información por temas</h1>
 	    <div class="download-button">

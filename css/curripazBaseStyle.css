@@ -33,74 +33,11 @@
     height: auto;
 }
 
-.curripaz-panel .quick-access-links {
-    background: #7ac7be;
-    padding: 1px 0;
-}
-
-.curripaz-panel .quick-access-links > div:not(:last-child) {
-    height: 90px;
-    margin: 15px;
-}
-
-.curripaz-panel .quick-access-links a {
-    display: block;
-    height: 100%;
-    width: 100%;
-}
-
-.curripaz-panel .activa-link {
-    background: url(../img/lg_activa_link_hands.gif) white no-repeat 0 100% / 35% auto;
-}
-
-.curripaz-panel .activa-link a {
-    background: url(../img/lg_activa_link.gif) transparent no-repeat 90% center / 60% auto;
-}
-
-.curripaz-panel .send-proposal-link {
-    background: url(../img/lg_send_proposal.png) #a4579d no-repeat 0 100% / 40% auto;
-}
-
-.curripaz-panel .send-proposal-link a {
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: right;
-    padding: 15px 15px 15px 36%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    line-height: 1.2;
-}
-
-.curripaz-panel .download-files {
-    margin: 15px;
-}
-
-.curripaz-panel .download-files h1 {
-    color: white;
-    font-size: 1.3em;
-    font-weight: 400;
-    padding: 0;
-    margin: 25px 0px 10px;
-}
-
-.curripaz-panel .download-button {
-    background: url(../img/ico_download_file.png) #A4579D no-repeat 95% center / 28px;
-    margin: 5px 0;
-}
-
-.curripaz-panel .download-button a {
-    color: white !important;
-    padding: 15px 40px 15px 15px;
-    text-align: left;
-}
-
-.curripaz-panel .pane-title {   
-    margin: 0;
-    color: #a4579d;
-    font-size: 24px;
-    font-weight: 600;
+.curripaz-panel .pane-title {
+    margin: 0 !important;
+    color: #a4579d !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
 }
 
 .curripaz-panel .ranking-view .view .view-content > div {
@@ -158,6 +95,79 @@
     color: #50B0AF;
 }
 
+.curripaz-panel .quick-access-links {
+    background: #7ac7be;
+    padding: 1px 0;
+}
+
+.curripaz-panel .quick-access-links > div:not(:last-child) {
+    height: 90px;
+    margin: 15px;
+}
+
+.curripaz-panel .quick-access-links a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.curripaz-panel .activa-link {
+    background: url(../img/lg_activa_link_hands.gif) white no-repeat 0 100% / 35% auto;
+}
+
+.curripaz-panel .activa-link a {
+    background: url(../img/lg_activa_link.gif) transparent no-repeat 90% center / 60% auto;
+}
+
+.curripaz-panel .send-proposal-link {
+    background: url(../img/lg_send_proposal.png) #a4579d no-repeat 0 100% / 40% auto;
+}
+
+.curripaz-panel .proposal-link {
+    background: url(../img/lg_proposal.png) #a4579d no-repeat 0 100% / 40% auto;
+}
+
+.curripaz-panel .unapproved-link {
+    background: url(../img/lg_unapproved_proposal.png) #a4579d no-repeat 0 100% / 40% auto;
+}
+
+.curripaz-panel .send-proposal-link a,
+.curripaz-panel .proposal-link a,
+.curripaz-panel .unapproved-proposal-link a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    padding: 15px 15px 15px 36%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    line-height: 1.2;
+}
+
+.curripaz-panel .download-files {
+    margin: 15px;
+}
+
+.curripaz-panel .download-files h1 {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 0;
+    margin: 25px 0px 10px;
+}
+
+.curripaz-panel .download-button {
+    background: url(../img/ico_download_file.png) #A4579D no-repeat 95% center / 28px;
+    margin: 5px 0;
+}
+
+.curripaz-panel .download-button a {
+    color: white !important;
+    padding: 15px 40px 15px 15px;
+    text-align: left;
+}
+
 @media (max-width: 767px) {
     .curripaz-panel .section_container.no_left_sidebar .section_content {
         width: 100% !important;
@@ -173,6 +183,14 @@
 
     .curripaz-panel .send-proposal-link {
         background: url(../img/lg_send_proposal.png) #a4579d no-repeat 0 100% / auto 100%;
+    }
+
+    .curripaz-panel .proposal-link {
+        background: url(../img/lg_proposal.png) #a4579d no-repeat 0 100% / auto 100%;
+    }
+
+    .curripaz-panel .unapproved-link {
+        background: url(../img/lg_unapproved_proposal.png) #a4579d no-repeat 0 100% / auto 100%;
     }
 }
 
@@ -203,7 +221,9 @@
       height: 9vw;
     }
 
-    .curripaz-panel .send-proposal-link a {
+    .curripaz-panel .send-proposal-link a,
+    .curripaz-panel .proposal-link a,
+    .curripaz-panel .unapproved-proposal-link a {
       padding: 0 4% 0 35%;
       align-items: center;
       font-size: 14px;
