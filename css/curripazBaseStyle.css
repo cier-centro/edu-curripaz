@@ -231,7 +231,7 @@
 }
 
 .curripaz-panel .view-filters .views-submit-button .form-submit {
-    background: url(../img/ico_search.png) #A4579D no-repeat 95% center / 28px;
+    background: url(../img/ico_search.png) #A4579D no-repeat 85% center / 20px;
     border-radius: 0;
     margin-bottom: 20px;
     width: 100px;
@@ -240,8 +240,10 @@
 }
 
 .curripaz-panel .view-filters .views-submit-button .form-submit:hover {
-    background-color: #7f487a;
+    background: url(../img/ico_search.png) #7f487a no-repeat 85% center / 20px;
     width: 100px;
+    border-radius: 0;
+    margin-bottom: 20px;
 }
 
 .curripaz-panel .view-filters .form-type-select,
@@ -295,6 +297,14 @@
     .curripaz-panel .proposals-container .views-field.views-field-title {
         min-height: 100% !important;
     }
+
+    .curripaz-panel .view-filters .views-submit-button .form-submit {
+        background: url(../img/ico_search.png) #A4579D no-repeat 97% center / 20px;
+    }
+
+    .curripaz-panel .view-filters .views-submit-button .form-submit:hover {
+        background: url(../img/ico_search.png) #7f487a no-repeat 97% center / 20px;
+    }
 }
 
 @media (min-width: 851px) {
@@ -338,7 +348,7 @@
         width: 47%;
     }
 
-    .curripaz-panel .view-filters .views-exposed-widgets .views-exposed-widget {
+    .curripaz-panel .view-filters .views-submit-button {
         width: 100px;
         margin: 0 3%;
     }
