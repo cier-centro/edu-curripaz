@@ -231,7 +231,7 @@
     background: url(../img/ico_search.png) #A4579D no-repeat 85% center / 20px;
     border-radius: 0;
     margin-bottom: 20px;
-    width: 100px !important;
+    width: 100% !important;
     text-align: left;
     padding: 0 40px 0 15px;
 }
