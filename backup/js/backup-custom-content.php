@@ -19,7 +19,7 @@
 			</a>
 	</div>
 	<div class="proposal-link">
-			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la" target="_blank">
+			<a href="curriculospaz/93331" target="_blank">
 					Ver propuestas
 			</a>
 	</div>
