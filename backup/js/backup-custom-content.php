@@ -23,11 +23,6 @@
 					Ver propuestas
 			</a>
 	</div>
-	<div class="unapproved-proposal-link">
-			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la" target="_blank">
-					Ver propuestas no aprobadas
-			</a>
-	</div>
 	<div class="download-files">
 	    <h1>Información por temas</h1>
 	    <div class="download-button">
@@ -50,6 +45,16 @@
 	    </div>
 	</div>
 </div>
+
+<!--Scripts solo para gestor-->
+<script>
+		var downloadLabel = '	<div class="unapproved-proposal-link">
+					<a href="curriculospaz/93335" target="_blank">
+							Ver propuestas no aprobadas
+					</a>
+			</div><label id="download-msg" class="col-xs-12">Para descargar este contenido ingrese con su usuario y clave</label>';
+		$(downloadLabel).insertBefore( $( "a#page-link" ) );
+</script>
 
 <!--Scripts de todas las páginas-->
 <script>
