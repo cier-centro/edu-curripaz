@@ -220,9 +220,6 @@
 .curripaz-panel .view-filters .form-type-select select {
     background-color: white;
     width: 100%;
-}
-
-.curripaz-panel .view-filters .form-type-select select {
     color: #5b5b5f;
 }
 
@@ -234,7 +231,7 @@
     background: url(../img/ico_search.png) #A4579D no-repeat 85% center / 20px;
     border-radius: 0;
     margin-bottom: 20px;
-    width: 100px;
+    width: 100px !important;
     text-align: left;
     padding: 0 40px 0 15px;
 }
@@ -300,6 +297,7 @@
 
     .curripaz-panel .view-filters .views-submit-button .form-submit {
         background: url(../img/ico_search.png) #A4579D no-repeat 97% center / 20px;
+        margin-top: 25px !important;
     }
 
     .curripaz-panel .view-filters .views-submit-button .form-submit:hover {
@@ -349,7 +347,7 @@
     }
 
     .curripaz-panel .view-filters .views-submit-button {
-        width: 100px;
-        margin: 0 3%;
+        width: 100px  !important;
+        margin: 0 3%  !important;
     }
 }

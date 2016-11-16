@@ -31,26 +31,25 @@
 	<div class="download-files">
 	    <h1>Información por temas</h1>
 	    <div class="download-button">
-	        <a href="#">Convivencia pacifica</a>
+	        <a href="curriculospaz/93331">Convivencia pacifica</a>
 	    </div>
 	    <div class="download-button">
-					<a href="#">Diversidad e identidad</a>
+					<a href="curriculospaz/93331">Diversidad e identidad</a>
 	    </div>
 	    <div class="download-button">
-					<a href="#">Memoria historica y reconciliación</a>
+					<a href="curriculospaz/93331">Memoria histórica y reconciliación</a>
 	    </div>
 	    <div class="download-button">
-					<a href="#">Participación ciudadana</a>
+					<a href="curriculospaz/93331">Participación ciudadana</a>
 	    </div>
 	    <div class="download-button">
-	        <a href="#">Desarrollo sostenible</a>
+	        <a href="curriculospaz/93331">Desarrollo sostenible</a>
 	    </div>
 	    <div class="download-button">
-	        <a href="#">Ética cuidado y decisiones</a>
+	        <a href="curriculospaz/93331">Ética cuidado y decisiones</a>
 	    </div>
 	</div>
 </div>
-
 
 <!--Scripts de todas las páginas-->
 <script>
