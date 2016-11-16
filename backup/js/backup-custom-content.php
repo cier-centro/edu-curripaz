@@ -48,12 +48,8 @@
 
 <!--Scripts solo para gestor-->
 <script>
-		var downloadLabel = '	<div class="unapproved-proposal-link">
-					<a href="curriculospaz/93335" target="_blank">
-							Ver propuestas no aprobadas
-					</a>
-			</div><label id="download-msg" class="col-xs-12">Para descargar este contenido ingrese con su usuario y clave</label>';
-		$(downloadLabel).insertBefore( $( "a#page-link" ) );
+		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver propuestas no aprobadas</a>';
+		$(unapprovedProposalButton).insertBefore( $( ".download-files" ) );
 </script>
 
 <!--Scripts de todas las páginas-->

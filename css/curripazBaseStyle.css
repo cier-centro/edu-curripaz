@@ -196,8 +196,15 @@
 }
 
 .curripaz-panel .view-filters {
-    background: #f4bd54;
     border: none;
+}
+
+.curripaz-panel .approved-proposals-filter .view-filters {
+    background: #7ac7be;
+}
+
+.curripaz-panel .unapproved-proposals-filter .view-filters {
+    background: #f4bd54;
 }
 
 .curripaz-panel .view-filters label {
