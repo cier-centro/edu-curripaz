@@ -293,6 +293,11 @@
     background: #7ac7be;
 }
 
+.curripaz-panel .curripaz-proposal-container .second-info-row,
+.curripaz-panel .curripaz-proposal-container .third-info-row {
+    margin-bottom: 25px;
+}
+
 .curripaz-panel .curripaz-proposal-container .first-info-row .field-item,
 .curripaz-panel .curripaz-proposal-container .first-info-row .field-item a,
 .curripaz-panel .curripaz-proposal-container .second-info-row .field-item {
@@ -306,7 +311,7 @@
     font-weight: 600 !important;
 }
 
-.curripaz-panel .curripaz-proposal-container .field-name-field-correo-de-contacto-cpaz .field-item,
+.curripaz-panel .curripaz-proposal-container .field-name-field-correo-de-contacto-cpaz .field-item a,
 .curripaz-panel .curripaz-proposal-container .field-name-field-telefono-de-contacto .field-item {
     font-size: 14px !important;
 }
@@ -392,27 +397,23 @@
     .curripaz-panel .view-filters .views-submit-button .form-submit:hover {
         background: url(../img/ico_search.png) #7f487a no-repeat 97% center / 20px;
     }
-}
 
-@media (min-width: 851px) {
-    .curripaz-panel .main-menu .pane-content > .menu {
-        display: table;
-        width: 100%;
-        border: none !important;
+    .curripaz-panel .curripaz-proposal-container .school-info,
+    .curripaz-panel .curripaz-proposal-container .teacher-info {
+        padding: 20px 6%;
     }
 
-    .curripaz-panel .main-menu .pane-content > .menu > li {
-        float: none !important;
-        display: table-cell;
+    .curripaz-panel .curripaz-proposal-container .teacher-info {
+        text-align: left;
     }
 
-    .curripaz-panel .main-menu .pane-content > .menu > li:not(:first-child) {
-        border-left: 1px solid #f4bd54;
-        border-radius: 20%;
+    .curripaz-panel .curripaz-proposal-container .grade-topic-info {
+        margin: 0 0 0 6%;
+        width: 88%;
     }
 
-    .curripaz-panel .main-menu .menu > li a {
-        padding: 15px !important;
+    .curripaz-panel .curripaz-proposal-container .description-info {
+        margin-bottom: 25px;
     }
 }
 
@@ -438,5 +439,27 @@
     .curripaz-panel .view-filters .views-submit-button {
         width: 100px  !important;
         margin: 0 3%  !important;
+    }
+}
+
+@media (min-width: 851px) {
+    .curripaz-panel .main-menu .pane-content > .menu {
+        display: table;
+        width: 100%;
+        border: none !important;
+    }
+
+    .curripaz-panel .main-menu .pane-content > .menu > li {
+        float: none !important;
+        display: table-cell;
+    }
+
+    .curripaz-panel .main-menu .pane-content > .menu > li:not(:first-child) {
+        border-left: 1px solid #f4bd54;
+        border-radius: 20%;
+    }
+
+    .curripaz-panel .main-menu .menu > li a {
+        padding: 15px !important;
     }
 }
