@@ -62,10 +62,10 @@
 		const TEACHER_DIV = '<div class="col-xs-12 col-sm-5 '+ TEACHER_VIEW + '"></div>';
 		const GRADE_TOPIC_DIV = '<div class="col-xs-12 '+ GRADE_TOPIC_VIEW + '"></div>';
 		const DESCRIPTION_DIV = '<div class="col-xs-12 col-sm-7 '+ DESCRIPTION_VIEW + '"></div>';
-		const EXTRA_DIV = '<div class="col-xs-12 col-sm-5 '+ EXTRA_VIEW + '"></div>';
+		const EXTRA_DIV = '<div class="col-xs-12 col-sm-5 '+ EXTRA_VIEW + '"><h3>Información adicional</h3></div>';
 
 		if ($( INFO_CONTAINER )) {
-				var infoStructure = '<div>' + SCHOOL_DIV + TEACHER_DIV + '</div>' + '<div>' + GRADE_TOPIC_DIV + '</div>' + '<div>' + DESCRIPTION_DIV + EXTRA_DIV + '</div>';
+				var infoStructure = '<div class="row first-info-row">' + SCHOOL_DIV + TEACHER_DIV + '</div>' + '<div class="row second-info-row">' + GRADE_TOPIC_DIV + '</div>' + '<div class="row third-info-row">' + DESCRIPTION_DIV + EXTRA_DIV + '</div>';
 				$(infoStructure).insertAfter( $( INFO_CONTAINER + " ." + FIELD_NAME + 'calificacion-cpaz' ) );
 				var infoArray = [
 						[SCHOOL_VIEW, 'nombre-ie'],

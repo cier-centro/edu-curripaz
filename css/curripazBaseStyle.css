@@ -39,7 +39,7 @@
     color: #a4579d !important;
     font-size: 24px !important;
     font-weight: 600 !important;
-    border: none;
+    border: none !important;
 }
 
 .curripaz-panel .curripaz-container .pane-title,
@@ -286,6 +286,68 @@
 
 .curripaz-panel .curripaz-proposal-container .field-name-field-calificacion-cpaz {
     margin-bottom: 20px;
+}
+
+.curripaz-panel .curripaz-proposal-container .first-info-row,
+.curripaz-panel .curripaz-proposal-container .second-info-row {
+    background: #7ac7be;
+}
+
+.curripaz-panel .curripaz-proposal-container .first-info-row .field-item,
+.curripaz-panel .curripaz-proposal-container .first-info-row .field-item a,
+.curripaz-panel .curripaz-proposal-container .second-info-row .field-item {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.curripaz-panel .curripaz-proposal-container .field-name-field-nombre-ie .field-item {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.curripaz-panel .curripaz-proposal-container .field-name-field-correo-de-contacto-cpaz .field-item,
+.curripaz-panel .curripaz-proposal-container .field-name-field-telefono-de-contacto .field-item {
+    font-size: 14px !important;
+}
+
+.curripaz-panel .curripaz-proposal-container .field-name-field-nombres-del-docente,
+.curripaz-panel .curripaz-proposal-container .field-name-field-apellidos-del-docente {
+    display: inline-block;
+}
+
+.curripaz-panel .curripaz-proposal-container .field-name-field-apellidos-del-docente {
+    padding-left: 3px;
+}
+
+.curripaz-panel .curripaz-proposal-container .school-info {
+    padding: 20px 10px 10px 3%;
+}
+
+.curripaz-panel .curripaz-proposal-container .teacher-info {
+    padding: 20px 3% 10px 10px;
+    text-align: right;
+}
+
+.curripaz-panel .curripaz-proposal-container .grade-topic-info {
+    border-top: 2px solid white;
+    margin: 0 3%;
+    width: 94%;
+    padding: 20px 0;
+}
+
+.curripaz-panel .curripaz-proposal-container .extra-info > div {
+    margin-bottom: 10px;
+}
+
+.curripaz-panel .curripaz-proposal-container .extra-info h3 {
+    font-size: 20px !important;
+    color: #7ac7be;
+    margin-bottom: 20px;
+}
+
+.curripaz-panel .curripaz-proposal-container .extra-info .field-label {
+    font-size: 15px !important;
 }
 
 @media (max-width: 767px) {
