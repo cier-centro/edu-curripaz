@@ -33,14 +33,17 @@
     height: auto;
 }
 
-.curripaz-panel .pane-title {
+.curripaz-panel .pane-title,
+.curripaz-panel .curripaz-proposal-container .title {
     margin: 0 !important;
     color: #a4579d !important;
     font-size: 24px !important;
     font-weight: 600 !important;
+    border: none;
 }
 
-.curripaz-panel .curripaz-container .pane-title {
+.curripaz-panel .curripaz-container .pane-title,
+.curripaz-panel .curripaz-proposal-container .title {
     margin-bottom: 30px !important;
 }
 
@@ -67,7 +70,8 @@
 }
 
 .curripaz-panel .ranking-view .views-field-field-imagen-de-la-propuesta,
-.curripaz-panel .proposals-container .views-field-field-imagen-de-la-propuesta {
+.curripaz-panel .proposals-container .views-field-field-imagen-de-la-propuesta,
+.curripaz-panel .curripaz-proposal-container .field-name-field-imagen-de-la-propuesta {
     margin: 0 0 20px;
     position: relative;
     display: block;
@@ -83,8 +87,13 @@
     padding: 0 0 35%;
 }
 
+.curripaz-panel .curripaz-proposal-container .field-name-field-imagen-de-la-propuesta {
+    padding: 0 0 25%;
+}
+
 .curripaz-panel .ranking-view .views-field-field-imagen-de-la-propuesta img,
-.curripaz-panel .proposals-container .views-field-field-imagen-de-la-propuesta img {
+.curripaz-panel .proposals-container .views-field-field-imagen-de-la-propuesta img,
+.curripaz-panel .curripaz-proposal-container .field-name-field-imagen-de-la-propuesta img {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -266,6 +275,17 @@
     border: solid thin #A4579D;
     border-radius: 7px;
     padding: 1.4%;
+}
+
+.curripaz-panel .curripaz-proposal-container .author_info,
+.curripaz-panel .curripaz-proposal-container .info,
+.curripaz-panel .curripaz-proposal-container .field-name-field-aceptacion-de-terminos-de-,
+.curripaz-panel .curripaz-proposal-container .link-wrapper {
+    display: none;
+}
+
+.curripaz-panel .curripaz-proposal-container .field-name-field-calificacion-cpaz {
+    margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
