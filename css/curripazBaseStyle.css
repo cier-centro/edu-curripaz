@@ -42,9 +42,14 @@
     border: none !important;
 }
 
-.curripaz-panel .curripaz-container .pane-title,
-.curripaz-panel .curripaz-proposal-container .title {
-    margin-bottom: 30px !important;
+.curripaz-panel .curripaz-container,
+.curripaz-panel .left-panel,
+.curripaz-panel .proposals-container,
+.curripaz-panel .curripaz-proposal-container .title,
+.curripaz-panel .curripaz-proposal-container,
+.curripaz-panel .curripaz-proposal-container .second-info-row,
+.curripaz-panel .curripaz-proposal-container .third-info-row {
+    margin-bottom: 25px !important;
 }
 
 .curripaz-panel .ranking-view .view .view-content > div {
@@ -228,8 +233,8 @@
 }
 
 .curripaz-panel .view-filters .views-exposed-widgets > *:not(:last-child) {
-      width: 29.3%;
-      margin: 1% 0 2% 3%;
+    width: 29.3%;
+    margin: 1% 0 2% 3%;
 }
 
 .curripaz-panel .view-filters .views-exposed-widgets .views-exposed-widget .form-type-textfield input.form-text,
@@ -280,7 +285,8 @@
 .curripaz-panel .curripaz-proposal-container .author_info,
 .curripaz-panel .curripaz-proposal-container .info,
 .curripaz-panel .curripaz-proposal-container .field-name-field-aceptacion-de-terminos-de-,
-.curripaz-panel .curripaz-proposal-container .link-wrapper {
+.curripaz-panel .curripaz-proposal-container .link-wrapper,
+.curripaz-panel .curripaz-proposal-container .field-name-field-departamento-cpaz {
     display: none;
 }
 
@@ -291,11 +297,6 @@
 .curripaz-panel .curripaz-proposal-container .first-info-row,
 .curripaz-panel .curripaz-proposal-container .second-info-row {
     background: #7ac7be;
-}
-
-.curripaz-panel .curripaz-proposal-container .second-info-row,
-.curripaz-panel .curripaz-proposal-container .third-info-row {
-    margin-bottom: 25px;
 }
 
 .curripaz-panel .curripaz-proposal-container .first-info-row .field-item,
