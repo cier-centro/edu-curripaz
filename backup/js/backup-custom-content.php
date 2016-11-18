@@ -20,7 +20,7 @@
 	</div>
 	<div class="proposal-link">
 			<a href="curriculospaz/93331" target="_blank">
-					Ver propuestas
+					Ver propuestas publicadas
 			</a>
 	</div>
 	<div class="download-files">
@@ -59,7 +59,7 @@
 		const DESCRIPTION_VIEW = "description-info";
 		const EXTRA_VIEW = "extra-info";
 		const SCHOOL_DIV = '<div class="col-xs-12 col-sm-7 '+ SCHOOL_VIEW + '"></div>';
-		const TEACHER_DIV = '<div class="col-xs-12 col-sm-5 '+ TEACHER_VIEW + '"></div>';
+		const TEACHER_DIV = '<div class="col-xs-12 col-sm-5 '+ TEACHER_VIEW + '"><div class="field-label">Información del docente:</div></div>';
 		const GRADE_TOPIC_DIV = '<div class="col-xs-12 '+ GRADE_TOPIC_VIEW + '"></div>';
 		const DESCRIPTION_DIV = '<div class="col-xs-12 col-sm-7 '+ DESCRIPTION_VIEW + '"></div>';
 		const EXTRA_DIV = '<div class="col-xs-12 col-sm-5 '+ EXTRA_VIEW + '"><h3>Información adicional</h3></div>';
@@ -95,7 +95,7 @@
 
 <!--Scripts solo para gestor-->
 <script>
-		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver propuestas no aprobadas</a>';
+		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver propuestas no publicadas</a>';
 		$(unapprovedProposalButton).insertBefore( $( ".download-files" ) );
 </script>
 

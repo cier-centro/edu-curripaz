@@ -297,7 +297,7 @@
 
 .curripaz-panel .curripaz-proposal-container .first-info-row,
 .curripaz-panel .curripaz-proposal-container .second-info-row {
-    background: #7ac7be;
+    background: #00bcb7;
 }
 
 .curripaz-panel .curripaz-proposal-container .first-info-row .field-item,
@@ -306,6 +306,16 @@
     color: white;
     font-size: 16px;
     font-weight: 400;
+}
+
+.curripaz-panel .curripaz-proposal-container .first-info-row .field-label,
+.curripaz-panel .curripaz-proposal-container .second-info-row .field-label {
+    color: white;
+    font-weight: bold;
+}
+
+.curripaz-panel .curripaz-proposal-container .second-info-row .field-label {
+    font-size: 16px !important;
 }
 
 .curripaz-panel .curripaz-proposal-container .field-name-field-nombre-ie .field-item {
