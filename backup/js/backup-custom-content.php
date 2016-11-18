@@ -95,8 +95,15 @@
 
 <!--Scripts solo para gestor-->
 <script>
-		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver propuestas no publicadas</a>';
+		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver propuestas sin publicar</a>';
 		$(unapprovedProposalButton).insertBefore( $( ".download-files" ) );
+		var editButton = '<a class="edit-button" href="'+ getEditURL() +'">Editar propuesta</a>';
+		console.log(editButton);
+		$(editButton).insertAfter( $( '.row.third-info-row' ) );
+
+		function getEditURL() {
+	    return window.location.href.replace("curriculospaz", "node")+"/edit";
+	  }
 </script>
 
 <!--Scripts de todas las páginas-->

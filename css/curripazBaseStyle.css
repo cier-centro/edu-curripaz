@@ -337,6 +337,10 @@
     padding-left: 3px;
 }
 
+.curripaz-panel .curripaz-proposal-container .field-name-field-tema-de-la-propuesta .field-items {
+    float: none !important;
+}
+
 .curripaz-panel .curripaz-proposal-container .school-info {
     padding: 20px 10px 10px 3%;
 }
@@ -365,6 +369,19 @@
 
 .curripaz-panel .curripaz-proposal-container .extra-info .field-label {
     font-size: 15px !important;
+}
+
+.curripaz-panel .curripaz-proposal-container .edit-button {
+    background: #A4579D;
+    padding: 10px 15px;
+    display: block;
+    width: 100px;
+    color: white;
+    float: right;
+}
+
+.curripaz-panel .curripaz-proposal-container .edit-button:hover {
+    background: #7f487a;
 }
 
 @media (max-width: 767px) {
