@@ -3,50 +3,47 @@
 <link rel="stylesheet" href="http://52.37.84.217/edu-curripaz/css/condensed-fix.css">
 <link rel="stylesheet" href="http://52.37.84.217/edu-curripaz/css/common-elements.css">
 <link rel="stylesheet" href="http://52.37.84.217/edu-curripaz/css/curripazBaseStyle.css">
+<link rel="stylesheet" href="http://52.37.84.217/edu-curripaz/css/internas_curriculos.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<!--Botones panel izquiero de inicio y bloqueo de link temas-->
-<div class="quick-access-links">
-	<div class="activa-link">
-			<a href="http://aprende.colombiaaprende.edu.co/es/activatuciudadania" target="_blank">
-			</a>
-	</div>
-	<div class="send-proposal-link">
-			<a href="http://aprende.colombiaaprende.edu.co/es/node/add/formulario-de-curriculos-para-la" target="_blank">
-					Enviar propuesta de secuencia didáctica
-			</a>
-	</div>
-	<div class="proposal-link">
-			<a href="curriculospaz/93331" target="_blank">
-					Ver propuestas publicadas
-			</a>
-	</div>
-	<div class="download-files">
-	    <h1>Información por temas</h1>
-	    <div class="download-button">
-	        <a href="curriculospaz/93331">Convivencia pacifica</a>
-	    </div>
-	    <div class="download-button">
-					<a href="curriculospaz/93331">Diversidad e identidad</a>
-	    </div>
-	    <div class="download-button">
-					<a href="curriculospaz/93331">Memoria histórica y reconciliación</a>
-	    </div>
-	    <div class="download-button">
-					<a href="curriculospaz/93331">Participación ciudadana</a>
-	    </div>
-	    <div class="download-button">
-	        <a href="curriculospaz/93331">Desarrollo sostenible</a>
-	    </div>
-	    <div class="download-button">
-	        <a href="curriculospaz/93331">Ética cuidado y decisiones</a>
-	    </div>
-	</div>
-</div>
+
+
+<!--Scripts de todas las páginas-->
 <script>
-		$( ".curripaz-panel .main-menu .pane-content > .menu > li:last-child > a" ).attr( "href", "javascript:void(0)" );
+	var url = window.location.href;
+	var topicViews = [93239, 93240, 93241, 93242, 93243, 93244];
+
+	$( document ).ready(function() {
+	    $( ".curripaz-panel .main-menu .pane-content > .menu > li:last-child > a" ).attr( "href", "javascript:void(0)" );
+	    $( ".field-type-url a" ).attr( "target", "_blank" );
+	    $( "a[type*='pdf']" ).attr( "target", "_blank" );
+	    if (isViewShown(topicViews)) {
+	       $( ".curripaz-panel .main-menu .pane-content > .menu > li:nth-child(4) a" ).addClass("active");
+	    }
+	    else {
+	       $( ".curripaz-panel .main-menu .pane-content > .menu > li:nth-child(4) a" ).removeClass("active");
+		}
+		if (isUrlEndsWithCurriculospaz("/curriculospaz")) {
+			 $( ".curripaz-panel .main-menu .pane-content > .menu li a" ).first().addClass("active");
+		}
+		else {
+			$( ".curripaz-panel .main-menu .pane-content > .menu li a" ).first().removeClass("active");
+		}
+	});
+
+	function isViewShown(views) {
+	    for (i = 0; i < views.length; i++) {
+	         if (url.includes(views[i])) {
+	             return true;
+	         }
+	    }
+	}
+
+	function isUrlEndsWithCurriculospaz(finalWord) {
+			return url.endsWith(finalWord);
+	}
 </script>
 
 <!--Scripts para estructurar informacion completa de la propuesta-->
@@ -98,43 +95,9 @@
 		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver propuestas sin publicar</a>';
 		$(unapprovedProposalButton).insertBefore( $( ".download-files" ) );
 		var editButton = '<a class="edit-button" href="'+ getEditURL() +'">Editar propuesta</a>';
-		console.log(editButton);
-		$(editButton).insertAfter( $( '.row.third-info-row' ) );
+		$(editButton).insertAfter( $( '.third-info-row' ) );
 
 		function getEditURL() {
-	    return window.location.href.replace("curriculospaz", "node")+"/edit";
+	    	return window.location.href.replace("curriculospaz", "node")+"/edit";
 	  }
-</script>
-
-<!--Scripts de todas las páginas-->
-<script>
-	var url = window.location.href;
-	var topicViews = [93239, 93240, 93241, 93242, 93243, 93244];
-
-	$( document ).ready(function() {
-	    if (isViewShown(topicViews)) {
-	       $( ".curripaz-panel .main-menu .pane-content > .menu > li:nth-child(4) a" ).addClass("active");
-	    }
-	    else {
-	       $( ".curripaz-panel .main-menu .pane-content > .menu > li:nth-child(4) a" ).removeClass("active");
-			}
-			if (isUrlEndsWithCurriculospaz("/curriculospaz")) {
-				 $( ".curripaz-panel .main-menu .pane-content > .menu li a" ).first().addClass("active");
-			}
-			else {
-				 $( ".curripaz-panel .main-menu .pane-content > .menu li a" ).first().removeClass("active");
-			}
-	});
-
-	function isViewShown(views) {
-	    for (i = 0; i < views.length; i++) {
-	         if (url.includes(views[i])) {
-	             return true;
-	         }
-	    }
-	}
-
-	function isUrlEndsWithCurriculospaz(finalWord) {
-			return url.endsWith(finalWord);
-	}
 </script>

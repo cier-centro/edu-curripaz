@@ -283,11 +283,9 @@
     padding: 1.4%;
 }
 
-.curripaz-panel .curripaz-proposal-container .author_info,
-.curripaz-panel .curripaz-proposal-container .info,
-.curripaz-panel .curripaz-proposal-container .field-name-field-aceptacion-de-terminos-de-,
-.curripaz-panel .curripaz-proposal-container .link-wrapper,
-.curripaz-panel .curripaz-proposal-container .field-name-field-departamento-cpaz {
+.curripaz-panel .curripaz-proposal-container .author_info .user_image,
+.curripaz-panel .curripaz-proposal-container .info .view,
+.curripaz-panel .curripaz-proposal-container .link-wrapper {
     display: none;
 }
 
@@ -375,7 +373,6 @@
     background: #A4579D;
     padding: 10px 15px;
     display: block;
-    width: 100px;
     color: white;
     float: right;
 }
