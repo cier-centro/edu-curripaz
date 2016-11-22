@@ -53,6 +53,17 @@
     margin-bottom: 25px !important;
 }
 
+.curripaz-panel .curripaz-proposal-container .author_info,
+.curripaz-panel .curripaz-proposal-container .author_info .user_name,
+.curripaz-panel .curripaz-proposal-container .info {
+    float: left;
+}
+
+.curripaz-panel .curripaz-proposal-container .author_info .created {
+    background-position: left 4px !important;
+    line-height: 1.5;
+}
+
 .curripaz-panel .ranking-view .view .view-content > div {
     width: 100%;
     border: solid thin #A4579D;
@@ -95,6 +106,8 @@
 
 .curripaz-panel .curripaz-proposal-container .field-name-field-imagen-de-la-propuesta {
     padding: 0 0 25%;
+    float: left;
+    width: 100%;
 }
 
 .curripaz-panel .ranking-view .views-field-field-imagen-de-la-propuesta img,
@@ -285,6 +298,7 @@
 
 .curripaz-panel .curripaz-proposal-container .author_info .user_image,
 .curripaz-panel .curripaz-proposal-container .info .view,
+.curripaz-panel .curripaz-proposal-container .info .share_content,
 .curripaz-panel .curripaz-proposal-container .link-wrapper {
     display: none;
 }
