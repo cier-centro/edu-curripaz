@@ -61,7 +61,11 @@
 
 .curripaz-panel .curripaz-proposal-container .author_info .created {
     background-position: left 4px !important;
-    line-height: 1.5;
+    line-height: 1.5 !important;
+}
+
+.curripaz-panel .curripaz-proposal-container .author_info .user_name .name span {
+    padding: 0 !important;
 }
 
 .curripaz-panel .ranking-view .view .view-content > div {
