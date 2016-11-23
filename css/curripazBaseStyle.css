@@ -129,7 +129,6 @@
     margin: 0 0 20px;
     font-size: 13px;
     text-align: justify;
-    min-height: 70px;
 }
 
 .curripaz-panel .ranking-view .views-field-field-calificacion-cpaz,
@@ -461,17 +460,24 @@
     }
 }
 
+@media (min-width: 768px) {
+    .curripaz-panel .ranking-view .views-field-field-descripcion-cpaz,
+    .curripaz-panel .proposals-container .views-field-field-descripcion-cpaz {
+        height: 75px;
+     }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
     .curripaz-panel .quick-access-links > div:not(:last-child) {
-      height: 9vw;
+        height: 9vw;
     }
 
     .curripaz-panel .send-proposal-link a,
     .curripaz-panel .proposal-link a,
     .curripaz-panel .unapproved-proposal-link a {
-      padding: 0 4% 0 35%;
-      align-items: center;
-      font-size: 14px;
+        padding: 0 4% 0 35%;
+        align-items: center;
+        font-size: 14px;
     }
 }
 
