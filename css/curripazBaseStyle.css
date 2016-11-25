@@ -386,16 +386,38 @@
     font-size: 15px !important;
 }
 
-.curripaz-panel .curripaz-proposal-container .edit-button {
+.curripaz-panel .curripaz-proposal-container .edit-button,
+.curripaz-panel #comments .form-submit,
+.curripaz-panel #comments .replay > a {
     background: #A4579D;
-    padding: 10px 15px;
     display: block;
     color: white;
     float: right;
 }
 
-.curripaz-panel .curripaz-proposal-container .edit-button:hover {
+.curripaz-panel .curripaz-proposal-container .edit-button {
+  padding: 10px 15px;
+}
+
+.curripaz-panel #comments .form-submit,
+.curripaz-panel #comments .replay > a {
+    margin-left: 10px
+    box-shadow: 0 3px 0 #a9289e !important;
+}
+
+.curripaz-panel .curripaz-proposal-container .edit-button:hover,
+.curripaz-panel #comments .form-submit:hover,
+.curripaz-panel #comments .replay > a:hover {
     background: #7f487a;
+}
+
+.curripaz-panel #comments .title,
+.curripaz-panel #comments .title span {
+    color: #00bcb7 !important;
+}
+
+.curripaz-panel #comments .comment_container .comment_body {
+    border: 1px solid #00bcb7;
 }
 
 @media (max-width: 767px) {
