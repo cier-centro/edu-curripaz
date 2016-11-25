@@ -393,6 +393,7 @@
     display: block;
     color: white;
     float: right;
+    margin-left: 10px;
 }
 
 .curripaz-panel .curripaz-proposal-container .edit-button {
@@ -401,7 +402,6 @@
 
 .curripaz-panel #comments .form-submit,
 .curripaz-panel #comments .replay > a {
-    margin-left: 10px
     box-shadow: 0 3px 0 #a9289e !important;
 }
 
