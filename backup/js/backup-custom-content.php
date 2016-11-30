@@ -20,10 +20,10 @@
 	    $( ".field-type-url a" ).attr( "target", "_blank" );
 	    $( "a[type*='pdf']" ).attr( "target", "_blank" );
 	    if (isViewShown(topicViews)) {
-	       $( ".curripaz-panel .main-menu .pane-content > .menu > li:nth-child(4) a" ).addClass("active");
+	       $( ".curripaz-panel .main-menu .pane-content > .menu > li:nth-child(5) a" ).addClass("active");
 	    }
 	    else {
-	       $( ".curripaz-panel .main-menu .pane-content > .menu > li:nth-child(4) a" ).removeClass("active");
+	       $( ".curripaz-panel .main-menu .pane-content > .menu > li:nth-child(5) a" ).removeClass("active");
 		}
 		if (isUrlEndsWithCurriculospaz("/curriculospaz")) {
 			 $( ".curripaz-panel .main-menu .pane-content > .menu li a" ).first().addClass("active");
