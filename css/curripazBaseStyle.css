@@ -31,6 +31,7 @@
 
 .curripaz-panel #microsite_panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu {
     height: auto;
+    right: 0;
 }
 
 .curripaz-panel .pane-title,
@@ -418,6 +419,41 @@
 
 .curripaz-panel #comments .comment_container .comment_body {
     border: 1px solid #00bcb7;
+}
+
+.curripaz-panel .curripaz-container p {
+    text-align: justify;
+}
+
+.curripaz-panel .listaCurri, .curripaz-panel .listaCurri
+{
+    background-color: #7AC7BE;
+    padding: 10px;
+    color: white;
+    width: 60%;
+    margin: 10px auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+.curripaz-panel ol.listaCurri li
+{
+    list-style-type: lower-alpha;
+    margin-left: 30px;
+}
+
+.curripaz-panel ul.listaCurri li
+{
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.curripaz-panel .listaCurri li
+{
+    font-size: 1.1em;
+    color: white;
 }
 
 @media (max-width: 767px) {
