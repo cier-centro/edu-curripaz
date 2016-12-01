@@ -92,7 +92,7 @@
 
 <!--Scripts solo para gestor-->
 <script>
-		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver propuestas sin publicar</a>';
+		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver secuencias sin publicadas</a>';
 		$(unapprovedProposalButton).insertBefore( $( ".download-files" ) );
 		var editButton = '<a class="edit-button" href="'+ getEditURL() +'">Editar propuesta</a>';
 		$(editButton).insertAfter( $( '.third-info-row' ) );

@@ -179,21 +179,21 @@
 }
 
 .curripaz-panel .send-proposal-link {
-    background: url(../img/lg_send_proposal.png) #a4579d no-repeat 0 100% / 40% auto;
+    background: url(../img/lg_send_proposal.png) #f4bd54 no-repeat 0 100% / 40% auto;
 }
 
 .curripaz-panel .proposal-link {
-    background: url(../img/lg_proposal.png) #a4579d no-repeat 0 100% / 40% auto;
+    background: url(../img/lg_proposal.png) #f4bd54 no-repeat 0 100% / 40% auto;
 }
 
 .curripaz-panel .unapproved-proposal-link {
-    background: url(../img/lg_unapproved_proposal.png) #a4579d no-repeat 0 100% / 40% auto;
+    background: url(../img/lg_unapproved_proposal.png) #f4bd54 no-repeat 0 100% / 40% auto;
 }
 
 .curripaz-panel .send-proposal-link a,
 .curripaz-panel .proposal-link a,
 .curripaz-panel .unapproved-proposal-link a {
-    color: white;
+    color: #a4579d;
     font-size: 18px;
     font-weight: 600;
     text-align: right;
