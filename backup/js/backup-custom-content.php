@@ -53,16 +53,18 @@
 		const SCHOOL_VIEW = "school-info";
 		const TEACHER_VIEW = "teacher-info";
 		const GRADE_TOPIC_VIEW = "grade-topic-info";
+		const COMPETENCE_VIEW = "competence-info";
 		const DESCRIPTION_VIEW = "description-info";
 		const EXTRA_VIEW = "extra-info";
 		const SCHOOL_DIV = '<div class="col-xs-12 col-sm-7 '+ SCHOOL_VIEW + '"></div>';
 		const TEACHER_DIV = '<div class="col-xs-12 col-sm-5 '+ TEACHER_VIEW + '"><div class="field-label">Información del docente:</div></div>';
 		const GRADE_TOPIC_DIV = '<div class="col-xs-12 '+ GRADE_TOPIC_VIEW + '"></div>';
+		const COMPETENCE_DIV = '<div class="col-xs-12 '+ COMPETENCE_VIEW + '"></div>';
 		const DESCRIPTION_DIV = '<div class="col-xs-12 col-sm-7 '+ DESCRIPTION_VIEW + '"></div>';
 		const EXTRA_DIV = '<div class="col-xs-12 col-sm-5 '+ EXTRA_VIEW + '"><h3>Información adicional</h3></div>';
 
 		if ($( INFO_CONTAINER )) {
-				var infoStructure = '<div class="row first-info-row">' + SCHOOL_DIV + TEACHER_DIV + '</div>' + '<div class="row second-info-row">' + GRADE_TOPIC_DIV + '</div>' + '<div class="row third-info-row">' + DESCRIPTION_DIV + EXTRA_DIV + '</div>';
+				var infoStructure = '<div class="row first-info-row">' + SCHOOL_DIV + TEACHER_DIV + '</div>' + '<div class="row second-info-row">' + GRADE_TOPIC_DIV + COMPETENCE_DIV + '</div>' + '<div class="row third-info-row">' + DESCRIPTION_DIV + EXTRA_DIV + '</div>';
 				$(infoStructure).insertAfter( $( INFO_CONTAINER + " ." + FIELD_NAME + 'calificacion-cpaz' ) );
 				var infoArray = [
 						[SCHOOL_VIEW, 'nombre-ie'],
@@ -74,6 +76,9 @@
 						[TEACHER_VIEW, 'telefono-de-contacto'],
 						[GRADE_TOPIC_VIEW, 'tema-de-la-propuesta'],
 						[GRADE_TOPIC_VIEW, 'grado-de-la-propuesta'],
+						[COMPETENCE_VIEW, 'competencia-ciudadana'],
+						[COMPETENCE_VIEW, 'estandar-de-competencia'],
+						[COMPETENCE_VIEW, 'desempeno-que-logra'],
 						[DESCRIPTION_VIEW, 'descripcion-cpaz'],
 						[EXTRA_VIEW, 'documento-de-la-propuesta'],
 						[EXTRA_VIEW, 'videos-complementarios'],
@@ -88,16 +93,4 @@
 		function putInfoInView(view, info) {
 				$( INFO_CONTAINER + " ." + view ).append ( $(INFO_CONTAINER + " ." + FIELD_NAME + info) );
 		}
-</script>
-
-<!--Scripts solo para gestor-->
-<script>
-		var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver secuencias sin publicadas</a>';
-		$(unapprovedProposalButton).insertBefore( $( ".download-files" ) );
-		var editButton = '<a class="edit-button" href="'+ getEditURL() +'">Editar propuesta</a>';
-		$(editButton).insertAfter( $( '.third-info-row' ) );
-
-		function getEditURL() {
-	    	return window.location.href.replace("curriculospaz", "node")+"/edit";
-	  }
 </script>

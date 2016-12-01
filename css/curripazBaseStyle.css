@@ -366,7 +366,8 @@
     text-align: right;
 }
 
-.curripaz-panel .curripaz-proposal-container .grade-topic-info {
+.curripaz-panel .curripaz-proposal-container .grade-topic-info,
+.curripaz-panel .curripaz-proposal-container .competence-info {
     border-top: 2px solid white;
     margin: 0 3%;
     width: 94%;
@@ -521,7 +522,8 @@
         text-align: left;
     }
 
-    .curripaz-panel .curripaz-proposal-container .grade-topic-info {
+    .curripaz-panel .curripaz-proposal-container .grade-topic-info,
+    .curripaz-panel .curripaz-proposal-container .competence-info {
         margin: 0 0 0 6%;
         width: 88%;
     }
