@@ -3,7 +3,6 @@
 <link rel="stylesheet" href="http://52.37.84.217/edu-curripaz/css/condensed-fix.css">
 <link rel="stylesheet" href="http://52.37.84.217/edu-curripaz/css/common-elements.css">
 <link rel="stylesheet" href="http://52.37.84.217/edu-curripaz/css/curripazBaseStyle.css">
-<link rel="stylesheet" href="http://52.37.84.217/edu-curripaz/css/internas_curriculos.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -88,9 +87,39 @@
 				for (var i = 0; i < infoArray.length; i++) {
 						putInfoInView(infoArray[i][0], infoArray[i][1]);
 				}
+				var accordionsBySession = getAccordionsBySession();
+				$(accordionsBySession).insertAfter( $( '.third-info-row' ) );
+
 		}
 
 		function putInfoInView(view, info) {
 				$( INFO_CONTAINER + " ." + view ).append ( $(INFO_CONTAINER + " ." + FIELD_NAME + info) );
 		}
+
+		function getAccordionsBySession() {
+				var accordionsViewBegin = '<div class="panel-group col-xs-12" id="accordion">';
+				var accordionBegin = '<div class="panel panel-default"><div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" href="#sesion';
+				var accordionTitle = '">Sesión ';
+				var accordionId = '</a></div><div id="sesion';
+				var accordionBody = '" class="panel-collapse collapse"><div class="panel-body"> </div></div></div>';
+				var accordionsViewFinal = '</div>';
+				var accordions = "";
+				var sessionsInView = $( "div[class*='sesion']" ).length;
+				for (var sessionItem = 1; sessionItem < sessionsInView + 1; sessionItem++) {
+						accordions += accordionBegin + sessionItem + accordionTitle + sessionItem + accordionId + sessionItem + accordionBody;
+				}
+				return accordionsViewBegin + accordions + accordionsViewFinal;
+		}
+</script>
+
+<!--Scripts solo para gestor-->
+<script>
+       var unapprovedProposalButton = '<div class="unapproved-proposal-link"><a href="curriculospaz/93335" target="_blank">Ver secuencias sin publicadas</a>';
+       $(unapprovedProposalButton).insertBefore( $( ".download-files" ) );
+       var editButton = '<a class="edit-button" href="'+ getEditURL() +'">Editar propuesta</a>';
+       $(editButton).insertAfter( $( '.third-info-row' ) );
+
+       function getEditURL() {
+           return window.location.href.replace("curriculospaz", "node")+"/edit";
+     }
 </script>

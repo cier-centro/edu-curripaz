@@ -400,6 +400,7 @@
 
 .curripaz-panel .curripaz-proposal-container .edit-button {
   padding: 10px 15px;
+  margin-bottom: 30px;
 }
 
 .curripaz-panel #comments .form-submit,
@@ -439,8 +440,17 @@
     text-align: justify;
 }
 
-.curripaz-panel .listaCurri, .curripaz-panel .listaCurri
-{
+.curripaz-panel .curripaz-container .panel-heading {
+    padding: 0;
+}
+
+.curripaz-panel .curripaz-container .panel-heading a {
+    padding: 10px 15px;
+    width: 100%;
+    display: block;
+}
+
+.curripaz-panel .listaCurri, .curripaz-panel .listaCurri {
     background-color: #7AC7BE;
     padding: 10px;
     color: white;
@@ -451,21 +461,17 @@
     border-radius: 3px;
 }
 
-
-.curripaz-panel ol.listaCurri li
-{
+.curripaz-panel ol.listaCurri li {
     list-style-type: lower-alpha;
     margin-left: 30px;
 }
 
-.curripaz-panel ul.listaCurri li
-{
+.curripaz-panel ul.listaCurri li {
     list-style-type: disc;
     margin-left: 30px;
 }
 
-.curripaz-panel .listaCurri li
-{
+.curripaz-panel .listaCurri li {
     font-size: 1.1em;
     color: white;
 }
