@@ -440,11 +440,11 @@
     text-align: justify;
 }
 
-.curripaz-panel .curripaz-container .panel-heading {
+.curripaz-panel .curripaz-proposal-container .panel-heading {
     padding: 0;
 }
 
-.curripaz-panel .curripaz-container .panel-heading a {
+.curripaz-panel .curripaz-proposal-container .panel-heading a {
     padding: 10px 15px;
     width: 100%;
     display: block;
