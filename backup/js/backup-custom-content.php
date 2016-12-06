@@ -52,18 +52,16 @@
 		const SCHOOL_VIEW = "school-info";
 		const TEACHER_VIEW = "teacher-info";
 		const GRADE_TOPIC_VIEW = "grade-topic-info";
-		const COMPETENCE_VIEW = "competence-info";
 		const DESCRIPTION_VIEW = "description-info";
 		const EXTRA_VIEW = "extra-info";
 		const SCHOOL_DIV = '<div class="col-xs-12 col-sm-7 '+ SCHOOL_VIEW + '"></div>';
 		const TEACHER_DIV = '<div class="col-xs-12 col-sm-5 '+ TEACHER_VIEW + '"><div class="field-label">Información del docente:</div></div>';
 		const GRADE_TOPIC_DIV = '<div class="col-xs-12 '+ GRADE_TOPIC_VIEW + '"></div>';
-		const COMPETENCE_DIV = '<div class="col-xs-12 '+ COMPETENCE_VIEW + '"></div>';
 		const DESCRIPTION_DIV = '<div class="col-xs-12 col-sm-7 '+ DESCRIPTION_VIEW + '"></div>';
 		const EXTRA_DIV = '<div class="col-xs-12 col-sm-5 '+ EXTRA_VIEW + '"><h3>Información adicional</h3></div>';
 
 		if ($( INFO_CONTAINER )) {
-				var infoStructure = '<div class="row first-info-row">' + SCHOOL_DIV + TEACHER_DIV + '</div>' + '<div class="row second-info-row">' + GRADE_TOPIC_DIV + COMPETENCE_DIV + '</div>' + '<div class="row third-info-row">' + DESCRIPTION_DIV + EXTRA_DIV + '</div>';
+				var infoStructure = '<div class="row first-info-row">' + SCHOOL_DIV + TEACHER_DIV + '</div>' + '<div class="row second-info-row">' + GRADE_TOPIC_DIV + '</div>' + '<div class="row third-info-row">' + DESCRIPTION_DIV + EXTRA_DIV + '</div>';
 				$(infoStructure).insertAfter( $( INFO_CONTAINER + " ." + FIELD_NAME + 'calificacion-cpaz' ) );
 				var infoArray = [
 						[SCHOOL_VIEW, 'nombre-ie'],
@@ -75,9 +73,6 @@
 						[TEACHER_VIEW, 'telefono-de-contacto'],
 						[GRADE_TOPIC_VIEW, 'tema-de-la-propuesta'],
 						[GRADE_TOPIC_VIEW, 'grado-de-la-propuesta'],
-						[COMPETENCE_VIEW, 'competencia-ciudadana'],
-						[COMPETENCE_VIEW, 'estandar-de-competencia'],
-						[COMPETENCE_VIEW, 'desempeno-que-logra'],
 						[DESCRIPTION_VIEW, 'descripcion-cpaz'],
 						[EXTRA_VIEW, 'documento-de-la-propuesta'],
 						[EXTRA_VIEW, 'videos-complementarios'],
@@ -87,28 +82,10 @@
 				for (var i = 0; i < infoArray.length; i++) {
 						putInfoInView(infoArray[i][0], infoArray[i][1]);
 				}
-				var accordionsBySession = getAccordionsBySession();
-				$(accordionsBySession).insertAfter( $( '.third-info-row' ) );
-
 		}
 
 		function putInfoInView(view, info) {
 				$( INFO_CONTAINER + " ." + view ).append ( $(INFO_CONTAINER + " ." + FIELD_NAME + info) );
-		}
-
-		function getAccordionsBySession() {
-				var accordionsViewBegin = '<div class="panel-group col-xs-12" id="accordion">';
-				var accordionBegin = '<div class="panel panel-default"><div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" href="#sesion';
-				var accordionTitle = '">Sesión ';
-				var accordionId = '</a></div><div id="sesion';
-				var accordionBody = '" class="panel-collapse collapse"><div class="panel-body"> </div></div></div>';
-				var accordionsViewFinal = '</div>';
-				var accordions = "";
-				var sessionsInView = $( "div[class*='sesion']" ).length;
-				for (var sessionItem = 1; sessionItem < sessionsInView + 1; sessionItem++) {
-						accordions += accordionBegin + sessionItem + accordionTitle + sessionItem + accordionId + sessionItem + accordionBody;
-				}
-				return accordionsViewBegin + accordions + accordionsViewFinal;
 		}
 </script>
 
